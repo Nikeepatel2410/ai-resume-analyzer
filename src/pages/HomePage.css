@@ -1,0 +1,55 @@
+
+.home-page .hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.home-page .hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-page .hero-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.home-page .cta-buttons .btn {
+  margin: 0 0.5rem;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.home-page .btn-primary {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.home-page .btn-secondary {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #eaeaea;
+}
+
+.home-page .features-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.home-page .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.home-page .feature-card {
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}

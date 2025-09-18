@@ -1,0 +1,50 @@
+
+.resume-analysis-page .analysis-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.resume-analysis-page .score-card,
+.resume-analysis-page .skills-card,
+.resume-analysis-page .recommendation-card {
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.resume-analysis-page .score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #0070f3;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem auto;
+}
+
+.resume-analysis-page .skills-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resume-analysis-page .skills-card .skill {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.resume-analysis-page .skill.matched {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.resume-analysis-page .skill.missing {
+  background-color: #f8d7da;
+  color: #721c24;
+}

@@ -1,0 +1,30 @@
+
+.job-listings-page .job-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.job-listings-page .job-card {
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.job-listings-page .job-card h3 {
+  margin-top: 0;
+}
+
+.job-listings-page .job-card .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.job-listings-page .btn-primary {
+  background-color: #0070f3;
+  color: #fff;
+}
