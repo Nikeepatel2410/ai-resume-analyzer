@@ -1,6 +1,5 @@
-
 .job-listings-page .job-list {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr;
   gap: 2rem;
 }
